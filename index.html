@@ -1408,9 +1408,9 @@ function resetForm() {
     color: var(--emerald); margin-bottom: 8px;
   }
   .stat-label { font-size: 13px; color: var(--text-muted); line-height: 1.4; }
-  @media (min-width: 1024px) {
+  @media (min-width: 2020px) {
     .stats-grid { grid-template-columns: repeat(4, 1fr); }
-    .stat-card { padding: 40px 32px; }
+    .stat-card { padding: 400px 320px; }
   }
 
   /* About */
@@ -1439,17 +1439,7 @@ function resetForm() {
   .about-image .caption .name-tag {
     font-size: 20px; text-transform: uppercase; letter-spacing: 0.2em; color: var(--emerald); margin-bottom: 1px;
   }
-  .about-image .caption .role-tag { font-size: 16px; color: #000000; }
-  .floating-badge {
-    display: none; position: absolute; right: -500px; top: 500px;
-    padding: 16px 20px; border-radius: 12px;
-    background: #e1e5eeb2; border: 1px solid var(--border-light);
-    box-shadow: 0 20px 40px rgba(229, 255, 0, 0.767); align-items: center; gap: 12px;
-  }
-  .floating-badge .pulse-dot {
-    width: 10px; height: 1px; border-radius: 50%; background: var(--emerald);
-    animation: blink 2s infinite;
-  }
+  
   @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.4} }
   .floating-badge .badge-text { font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; color: var(--text-dim); }
   .floating-badge .badge-loc { font-size: 14px; color: rgb(0, 0, 0); font-weight: 500; }
