@@ -9,16 +9,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #807e7ed2;
+    --bg: #1e6644ea;
     --bg-elevated: #000000;
-    --bg-card: #a89e9e;
+    --bg-card: #1e6644ea;
     --border: #fff6f6;
     --border-light: #000000;
     --text: #000000;
     --text-muted: #f7f7f7;
     --text-dim: #000000;
-    --emerald: #ffffffb7;
-    --emerald-light: #9c9c9ab2;
+    --emerald: #1e6644ea;
+    --emerald-light: #1e6644ea;
     --emerald-dark: #00D8D6;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -42,7 +42,7 @@
     transition: all 0.3s ease;
   }
   header.scrolled {
-    background: rgb(73, 71, 71);
+    background: #1e6644ea(73, 71, 71);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border);
   }
@@ -55,11 +55,11 @@
   }
   .logo-mark {
     width: 36px; height: 36px; border-radius: 50%;
-    background: rgb(0, 0, 0); border: 1px solid rgba(156, 150, 150, 0.822);
+    background: rgb(0, 0, 0); border: 1px solid #1e6644ea(156, 150, 150, 0.822);
     display: flex; align-items: center; justify-content: center;
     transition: all 0.3s;
   }
-  .logo:hover .logo-mark { background: rgba(66, 65, 65, 0.596); }
+  .logo:hover .logo-mark { background: #1e6644ea(66, 65, 65, 0.596); }
   .logo-mark span { font-family: 'Playfair Display'; color: var(--emerald); font-size: 18px; }
   .logo-text .name { font-size: 15px; font-weight: 500; color: rgb(255, 255, 255); letter-spacing: -0.02em; }
   .logo-text .role { font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; color: var(--text-dim); }
@@ -112,7 +112,7 @@
   .hero-glow {
     position: absolute; top: -200px; left: 50%; transform: translateX(-50%);
     width: 900px; height: 900px; border-radius: 50%;
-    background: rgba(65, 57, 57, 0.74); filter: blur(120px); pointer-events: none;
+    background: #1e6644ea(65, 57, 57, 0.74); filter: blur(120px); pointer-events: none;
   }
   .hero-glow-2 {
     position: absolute; top: 30%; left: -150px;
@@ -215,7 +215,7 @@
     display: none; position: absolute; right: -20px; top: 40px;
     padding: 16px 20px; border-radius: 12px;
     background: #f5f5f5b6; border: 1px solid var(--border-light);
-    box-shadow: 0 20px 40px rgba(90, 74, 74, 0.801); align-items: center; gap: 12px;
+    box-shadow: 0 20px 40px #1e6644ea(90, 74, 74, 0.801); align-items: center; gap: 12px;
   }
   .floating-badge .pulse-dot {
     width: 10px; height: 10px; border-radius: 50%; background: var(--emerald);
@@ -429,7 +429,7 @@
   .success-state { text-align: center; padding: 40px 0; }
   .success-icon {
     width: 64px; height: 64px; border-radius: 50%;
-    background: rgb(95, 76, 76); border: 1px solid rgba(16,185,129,0.3);
+    background: #1e6644ea(95, 76, 76); border: 1px solid rgba(16,185,129,0.3);
     display: flex; align-items: center; justify-content: center; margin: 0 auto 24px;
   }
   .success-icon svg { width: 32px; height: 32px; color: var(--emerald); }
@@ -1238,7 +1238,7 @@ function resetForm() {
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #807e7ed2;
+    --bg: #1e6644ea;
     --bg-elevated: #000000;
     --bg-card: #a89e9e;
     --border: #fff6f6;
